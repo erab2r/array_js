@@ -6,7 +6,7 @@ function evenOddNumber(number){
         return result;
     }
     else{
-        let result = number*3;
+        let result = number/2;
         return result;
     }
 
