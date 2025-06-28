@@ -11,7 +11,6 @@ function evenOddNumber(number){
     }
 
 }
-
 console.log(evenOddNumber(5));
 console.log(evenOddNumber(6));
 console.log(evenOddNumber(7));
