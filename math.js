@@ -1,0 +1,9 @@
+const min =Math.min(22,11,33,44,56,78,345,1,354,55);
+console.log(min);
+const max =Math.max(22,11,33,44,56,78,345,1,354,55);
+console.log(max);
+console.log(Math.PI);
+console.log(Math.abs(5-10));
+console.log(Math.round(5.2));
+console.log(Math.floor(5.9));
+console.log(Math.ceil(5.9));
