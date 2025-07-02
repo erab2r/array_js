@@ -9,4 +9,5 @@ console.log(Math.floor(5.9));
 console.log(Math.ceil(5.9));
 console.log(Math.random());
 console.log(Math.random()*10);
-console.log(Math.round(Math.random()*10));
+const rand = Math.round(Math.random()*10);
+console.log(rand);
