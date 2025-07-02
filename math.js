@@ -7,3 +7,6 @@ console.log(Math.abs(5-10));
 console.log(Math.round(5.2));
 console.log(Math.floor(5.9));
 console.log(Math.ceil(5.9));
+console.log(Math.random());
+console.log(Math.random()*10);
+console.log(Math.round(Math.random()*10));
