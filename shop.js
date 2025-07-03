@@ -11,7 +11,6 @@ function cartTotal(products){
         total = total + thisProductCost;
     }
     return total;
-
 }
 const shoppingCost = cartTotal(products);
 console.log(shoppingCost);
