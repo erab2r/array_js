@@ -15,7 +15,6 @@ function discountedPrice(quantity){
         const total = quantity * 70;
         return total;
     }
-
 }
-const total = discountedPrice(300);
+const total = discountedPrice(90);
 console.log(total);
