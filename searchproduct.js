@@ -8,6 +8,14 @@ const products = [
    {id: 7,name: 'Nokia phone',price: 19000},
    {id: 8,name: 'phone one',price: 19000},
 ]
-for(const product of products){
-    console.log(product);
+function matchProducts(products,search){
+    const match= [];
+    for(const product of products){
+        if(product.name.toLowerCase().includes(search.toLowerCase())){
+            match.push(product);
+        }
 }
+return match;
+}
+const result = matchProducts(products,'laptop');
+console.log(result);
